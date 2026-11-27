@@ -1,0 +1,24 @@
+{
+  "name": "museum-signage-webgpu",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "浏览器端展陈图文排版与上墙可读性预览系统 (TypeScript + WebGPU)",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "build:only": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "fflate": "^0.8.2",
+    "opentype.js": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/opentype.js": "^1.3.8",
+    "@webgpu/types": "^0.1.74",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.4"
+  }
+}
